@@ -4,7 +4,7 @@ import AppBar from '@material-ui/core/AppBar';
 import Drawer from '@material-ui/core/Drawer';
 import MenuItem from '@material-ui/core/MenuItem';
 import IconButton from '@material-ui/core/IconButton'
-import MenuIcon from '@material-ui/core/Menu';
+import MenuIcon from '@material-ui/icons/Menu';
 import { Link as RouterLink } from 'react-router-dom';
 import Link from '@material-ui/core/Link';
 
@@ -36,12 +36,12 @@ class AppShell extends React.Component {
                         </MenuItem>
                         <MenuItem onClick={this.handleDrawerToggle}>                            
                             <Link component={RouterLink} to="/words">
-                                텍스트 관리
+                                단어 관리
                             </Link>
                         </MenuItem>
                         <MenuItem onClick={this.handleDrawerToggle}>                            
                             <Link component={RouterLink} to="/texts">
-                                단어 관리
+                                텍스트 관리
                             </Link>
                         </MenuItem>
                     </Drawer>
