@@ -31,17 +31,17 @@ class AppShell extends React.Component {
                         {/* Link 는 material-ui 라이브러리에 있는거 */}
                         <MenuItem onClick={this.handleDrawerToggle}>                            
                             <Link component={RouterLink} to="/texts">
-                                Home
+                                홈 화면
                             </Link>
                         </MenuItem>
                         <MenuItem onClick={this.handleDrawerToggle}>                            
                             <Link component={RouterLink} to="/words">
-                                words
+                                텍스트 관리
                             </Link>
                         </MenuItem>
                         <MenuItem onClick={this.handleDrawerToggle}>                            
                             <Link component={RouterLink} to="/texts">
-                                Texts
+                                단어 관리
                             </Link>
                         </MenuItem>
                     </Drawer>
